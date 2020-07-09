@@ -13,5 +13,8 @@
 
     "require": {
         "torann/geoip": "^1.2"
-    }
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

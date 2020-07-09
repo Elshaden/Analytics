@@ -66,9 +66,14 @@ you need to use the event in your code
 
 Call the event By :
 
-`event(new AnalyticsEvent('<any_view_name>','<App\ModelName>','<Optional Model used ID>' ));`
+`event(new AnalyticsEvent('<any_view_name>',Optional'<App\ModelName>',Optional '< Model used ID>' ));`
 
 
 #### Que Worker
 Make sure   `php artisan que:listen --tries=1` is running in the server.
 
+
+#### The Result
+ ##### coming soon
+You should be able to get list of all Views by
+page, Model or model id, date, Region , and anything that I can think of.

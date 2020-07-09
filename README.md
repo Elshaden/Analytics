@@ -45,7 +45,7 @@ Register Analytics in your app by adding these lines to the respective arrays fo
 ]
 ```
 #### Configuration
-To modify the default configuration of Lavacharts, datetime formats for datatables or adding your maps api key...
+To modify the default configuration of Analytics, 
 Publish the configuration with 
 `php artisan vendor:publish --provider="Shaden\Analytics\ShadenAnalyticsServiceProvider" --tag="config"
 `

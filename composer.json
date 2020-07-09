@@ -1,0 +1,17 @@
+{
+    "name": "shaden/analytics",
+    "description": "Analytics Page Trafic",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salah",
+            "email": "salah@elshaden.com"
+        }
+    ],
+
+
+    "require": {
+        "torann/geoip": "^1.2"
+    }
+}

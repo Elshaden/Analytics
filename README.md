@@ -23,12 +23,9 @@ or via require
 `composer require shaden/analytics`
 
 
-### Laravel 
-Register Analytics in your app by adding these lines to the respective arrays found in `config/app.php`:
-```php
-<?php
-// config/app.php
-
+### Laravel   5.4 and less
+you need to Register Analytics in your app by adding these lines to the respective arrays found in `config/app.php`:
+```
 // ...
 'providers' => [
     // ...
@@ -40,10 +37,12 @@ Register Analytics in your app by adding these lines to the respective arrays fo
 'aliases' => [
     // ...
 
-           'Analytics'=>Shaden\Analytics\Facades\Analytics::class,
+     'Analytics'=>Shaden\Analytics\Facades\Analytics::class,
 
 ]
-```
+``` 
+
+
 #### Configuration
 To modify the default configuration of Analytics, 
 Publish the configuration with

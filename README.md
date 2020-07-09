@@ -1,6 +1,8 @@
-# Shaden Analytics 3.1.11
+# This Package is Work In Progress Not Cmpelete Yet
 
-Lavacharts is a Event Driven / Web Traffic Analytics library for PHP5.7+ .
+# Shaden Analytics 1.0
+
+Shaden Analytics is a Event Driven / Web Traffic Analytics library for PHP5.7+ .
 
 
 ---
@@ -11,10 +13,14 @@ In your project's main `composer.json` file, add this line to the requirements:
 "shaden/analytics": "*"
 ```
 
+
 Run Composer to install Analytics:
 ```bash
 $ composer update
 ```
+
+or via require
+`composer require shaden/analytics`
 
 
 ### Laravel 

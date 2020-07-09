@@ -27,11 +27,15 @@
     "autoload": {
         "psr-4": {
             "Shaden\\Analytics\\": "src/"
-        },
-        "config": {
-            "preferred-install": "dist"
         }
+
     },
+
+    "config": {
+        "preferred-install": "dist"
+    },
+
+
     "minimum-stability": "dev",
     "prefer-stable": true
 }

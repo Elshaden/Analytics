@@ -1,4 +1,4 @@
-# This Package is Work In Progress Not Cmpelete Yet
+# This Package is Work In Progress Not Complete Yet
 
 # Shaden Analytics 1.0
 

@@ -56,3 +56,19 @@ Publish the configuration with
 
 Then you must run 
 `php artisan migrate`
+
+
+#### To Use
+
+you need to use the event in your code
+
+`use Shaden\Analytics\Events\AnalyticsEvent;`
+
+Call the event By :
+
+'event(new AnalyticsEvent('<any_view_name>','<App\ModelName>','<Optional Model used ID>' ));'
+
+
+#### Que Worker
+Make sure   'php artisan que:listen --tries=1' is running in the server.
+

@@ -14,6 +14,20 @@
     "require": {
         "torann/geoip": "^1.2"
     },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shaden\\Analytics\\ShadenAnalyticsServiceProvider"
+            ]
+
+        }
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Shaden\\Analytics\\": "src/"
+        },
     "config": {
         "preferred-install": "dist"
     },

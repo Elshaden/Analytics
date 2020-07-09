@@ -66,9 +66,9 @@ you need to use the event in your code
 
 Call the event By :
 
-'event(new AnalyticsEvent('<any_view_name>','<App\ModelName>','<Optional Model used ID>' ));'
+`event(new AnalyticsEvent('<any_view_name>','<App\ModelName>','<Optional Model used ID>' ));`
 
 
 #### Que Worker
-Make sure   'php artisan que:listen --tries=1' is running in the server.
+Make sure   `php artisan que:listen --tries=1` is running in the server.
 
